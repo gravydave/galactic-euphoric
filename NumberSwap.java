@@ -9,11 +9,11 @@ public class NumberSwap
 		int x = 5;
 		int y = 9;
 		int temp;
-
-		System.out.println("X equals = " + x);
-		System.out.println("Y equals = " + y);
 		
-		//Swap algorithm
+		System.out.println("X equals = " + x);
+		System.out.println("y equals = " + y);
+		
+		System.out.println("Swapping numbers")
 		temp = x;
 		x = y;
 		y = temp;
