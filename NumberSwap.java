@@ -8,11 +8,18 @@ public class NumberSwap
 	{
 		int x = 5;
 		int y = 9;
+		int temp;
 
 		System.out.println("X equals = " + x);
 		System.out.println("Y equals = " + y);
 		
-		//Swap algorithm goes here
+		//Swap algorithm
+		temp = x;
+		x = y;
+		y = temp;
+		
+		System.out.println("X now equals = " + x);
+		System.out.println("Y now equlas = " + y);
 
 	}
 
